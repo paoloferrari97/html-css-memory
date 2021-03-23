@@ -25,6 +25,12 @@ header{
 /* /header */
 
 /* main */
+main::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
 .carta{
     width: 23%;
     height: 250px;
